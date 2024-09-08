@@ -1,4 +1,4 @@
-import 'package:ble/app/di.dart';
+// import 'package:ble/app/di.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/get_navigation.dart';
 
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      initialBinding: GeneralBindings(),
+      // initialBinding: GeneralBindings(),
       initialRoute: Routes.home,
       getPages: RoutePages.routes,
     );

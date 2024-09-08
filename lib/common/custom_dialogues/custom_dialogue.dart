@@ -6,7 +6,7 @@ class AppDialogs {
     required String title,
     required String content,
     String cancelText = 'Cancel',
-    String confirmText = 'Remove',
+    String confirmText = 'Allow',
     Function()? onCancel,
     Function()? onConfirm,
   }) {
